@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+			body {
+				background: #E8AD6D;
+				display: grid;
+				place-items: center;
+				margin: 0;
+				height: 100vh;
+			}
+			.outerCircle {
+				width: 180px;
+				height: 180px;
+				border-radius: 10em;
+				border-style: solid;
+				border-width: 20px;
+				border-color: #A84A4B;
+				grid-area: 1/1;
+			}
+			.palka {
+				background: #A84A4B;
+				width: 30px;
+				height: 260px;
+				grid-area: 1/1;
+			}
+			.rotated {
+				rotate: 90deg;
+				z-index: -1;
+			}
+			.wPalka {
+				background: #FFFFFF;
+				width: 30px;
+				height: 200px;
+				grid-area: 1/1;
+			}
+		</style>
+   </head> 
+
+   <body>
+   	<div class = "palka"></div>
+		<div class = "palka rotated"></div>
+		<div class = "wPalka"></div>
+		<div class = "wPalka rotated"></div>
+		<div class = "outerCircle"></div>
+	 </body>
+</html>
+
