@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+   <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .circle {
+                width: 60px;
+                height: 60px;
+                border-radius: 5em;
+                border-color: #2834BA;
+                border-style: solid;
+                border-width: 20px;
+                position: absolute;
+                left: 110px;
+                top: 20px;
+            }
+            #bottom{
+                left: 190px;
+                top: 180px;
+            }
+            .line{
+                width: 20px;
+                height: 161px;
+                position: absolute;
+                background: #2834BA;
+                top: 65px;
+                left: 110px;
+                box-shadow: 80px 0 #2834BA, 160px 0 #2834BA;
+            }
+            .hCircle{
+                width: 60px;
+                height: 40px;
+                position: absolute;
+                background: #2834BA;
+                border-radius: 5em 5em 0 0;
+                top: 210px;
+                left: 90px;
+            }
+            #top{
+                top: 50px;
+                left: 250px;
+                rotate: 180deg;
+            }
+            .palochki{
+                width: 10px;
+                height: 40px;
+                position: absolute;
+                background: #2834BA;
+                left: 100px;
+                top: 230px;
+                box-shadow: 30px 0 #2834BA, 160px -200px #2834BA, 190px -200px #2834BA;
+            }
+            body{
+                background: #479582;
+                margin: 0;
+            }
+        </style>
+    </head> 
+    <body>
+		<div class = "circle" ></div>
+        <div class = "circle" id = "bottom"></div>
+        <div class = "line"></div>
+        <div class = "hCircle"></div>
+        <div class = "hCircle" id = "top"></div>
+        <div class = "palochki"></div>
+	</body>
+</html>
